@@ -294,7 +294,7 @@ function WordStep({
           htmlFor="word"
           className="mb-2 block text-sm font-medium text-slate-700"
         >
-          Ton mot
+          Ton motttttttt
         </label>
         <input
           id="word"
