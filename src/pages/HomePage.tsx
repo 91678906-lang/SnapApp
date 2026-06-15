@@ -58,7 +58,7 @@ export default function HomePage() {
             {
               icon: "👀",
               title: "3. Profitez maintenant !",
-              text: "Attendez de recevoir un message par mail, si vous etes tirez au sort, alors ovus pouvez dès maintenant profiter",
+              text: "Attendez de recevoir un message par mail, si vous etes tirez au sort, alors ovus pouvez dès maintenant profiter.",
             },
           ].map((step) => (
             <div
