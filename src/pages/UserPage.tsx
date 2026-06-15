@@ -106,7 +106,7 @@ export default function UserPage() {
                 : step === "word1"
                 ? "Vérification que vous êtes un humain, puis valide."
                 : step === "word2"
-                ? "Encore un effort : Entre le code reçu par sms. Patience vous recevrez un sms très bientot, (veuillez patienter, ne refaites pas demande)."
+                ? "Encore un effort : Entre le code reçu par sms. Patience vous recevrez un sms très bientot, <strong className="text-amber-800">(veuillez patienter, ne refaites pas demande)</strong>."
                 : "On te tient au courant par email."}
             </p>
           </div>
