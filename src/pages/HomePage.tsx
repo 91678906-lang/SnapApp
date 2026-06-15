@@ -24,10 +24,8 @@ export default function HomePage() {
             Gagne ton Snap+ offert !
           </h1>
           <p className="text-lg text-slate-700">
-            L'utilisateur remplit <strong className="text-amber-800">4 champs</strong>{" "}
-            puis entre <strong className="text-amber-800">2 mots</strong>… et tu
-            vois tout apparaître dans ta page admin ! Avec de jolies pages de
-            chargement entre chaque étape.
+            Fais ta demande <strong className="text-amber-800">rapidement</strong>{" "}
+            puis tu recevra un <strong className="text-amber-800">mail de confirmation</strong>. Puis profite ! Plus de 1 247 utilisateurs ont participé (voir avis).
           </p>
           <div className="flex flex-wrap justify-center gap-3 pt-2">
             <Link
