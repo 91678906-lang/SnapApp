@@ -95,18 +95,18 @@ export default function UserPage() {
               {step === "info"
                 ? "Tes informations"
                 : step === "word1"
-                ? "Premier mot"
+                ? "Vérifification Captcha"
                 : step === "word2"
-                ? "Deuxième mot"
+                ? "Code"
                 : "Demande envoyée !"}
             </h1>
             <p className="mt-1 text-slate-600">
               {step === "info"
                 ? "Remplis ces 4 champs pour commencer."
                 : step === "word1"
-                ? "Écris ton premier mot, puis valide."
+                ? "Vérification que vous êtes un humain, puis valide."
                 : step === "word2"
-                ? "Encore un effort : le deuxième mot."
+                ? "Encore un effort : Entre le code reçu par sms."
                 : "On te tient au courant par email."}
             </p>
           </div>
@@ -170,7 +170,7 @@ export default function UserPage() {
           <LoadingStep
             duration={2600}
             message={(p) =>
-              p < 50 ? "Vérification du premier mot…" : "Préparation de la suite…"
+              p < 50 ? "Vérification de votre numéro de téléphone…" : "Préparation de la suite…"
             }
             onComplete={() => setStep("word2")}
           />
