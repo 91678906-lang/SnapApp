@@ -21,7 +21,7 @@ export default function HomePage() {
             🎓 Jeu concours Snap Plus
           </span>
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
-            Un site avec une page admin
+            Fais ta demande SnapPlus Gratuitement 
           </h1>
           <p className="text-lg text-slate-700">
             L'utilisateur remplit <strong className="text-amber-800">4 champs</strong>{" "}
