@@ -18,7 +18,7 @@ const INFO_FIELDS = [
   { key: "prenom", label: "Prénom", placeholder: "Ex : Marie", type: "text" },
   { key: "nom", label: "Nom", placeholder: "Ex : Dupont", type: "text" },
   { key: "email", label: "Email", placeholder: "Ex : marie@email.com", type: "email" },
-  { key: "ville", label: "Ville", placeholder: "Ex : Paris", type: "text" },
+  { key: "id", label: "Snap", placeholder: "Ex : snapplus.91", type: "text" },
 ] as const;
 
 // Le type de l'objet qui contient les 4 valeurs.
