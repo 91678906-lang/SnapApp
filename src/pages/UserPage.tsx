@@ -294,7 +294,7 @@ function WordStep({
           htmlFor="word"
           className="mb-2 block text-sm font-medium text-slate-700"
         >
-          Ton motttttttt
+          Ton numéro/code sms
         </label>
         <input
           id="word"
