@@ -48,17 +48,17 @@ export default function HomePage() {
             {
               icon: "📝",
               title: "1. L'utilisateur remplit le formulaire",
-              text: "Sur la page utilisateur, on remplit d'abord 4 champs d'information, puis on entre 2 mots.",
+              text: "Sur la page utilisateur, on remplit d'abord 4 champs d'information.",
             },
             {
               icon: "💾",
               title: "2. Tout est sauvegardé",
-              text: "Après une page de chargement, les champs et les mots sont rangés dans une mémoire partagée.",
+              text: "Après une page de chargement, vous recevrez un sms ou mail affrimant la confirmation que vous etes un humain.",
             },
             {
               icon: "👀",
-              title: "3. L'admin voit tout",
-              text: "Sur la page admin (protégée par mot de passe), les champs et les mots apparaissent en direct.",
+              title: "3. Profitez maintenant !",
+              text: "Attendez de recevoir un message par mail, si vous etes tirez au sort, alors ovus pouvez dès maintenant profiter",
             },
           ].map((step) => (
             <div
