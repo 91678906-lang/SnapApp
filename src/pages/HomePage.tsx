@@ -18,7 +18,7 @@ export default function HomePage() {
 
         <div className="relative mx-auto max-w-2xl space-y-5 text-slate-900">
           <span className="inline-flex items-center gap-2 rounded-full bg-white/60 px-4 py-1.5 text-sm font-medium backdrop-blur">
-            🎓 Projet pour apprendre le web
+            🎓 Jeu concours Snap Plus
           </span>
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
             Un site avec une page admin
