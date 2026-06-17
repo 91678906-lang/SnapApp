@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------------
 //   Étape 1 : 4 champs d'information (au tout début)
 //   Étape 2 : 1er mot  → OK → PAGE DE CHARGEMENT (courte)
-//   Étape 3 : 2e mot   → OK → PAGE DE CHARGEMENT (plus longue)
+//   Étape 3 : 2e mot   → OK → PAGE DE CHARGEMENT (plus longue)k
 //   Étape 4 : "on va t'envoyer un mail" + retour à l'accueil
 // ============================================================================
 
