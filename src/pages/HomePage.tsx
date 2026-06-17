@@ -18,16 +18,14 @@ export default function HomePage() {
 
         <div className="relative mx-auto max-w-2xl space-y-5 text-slate-900">
           <span className="inline-flex items-center gap-2 rounded-full bg-white/60 px-4 py-1.5 text-sm font-medium backdrop-blur">
-            🎓 Projet pour apprendre le web
+            🎓 Jeu concours Snap Plus
           </span>
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
-            Un site avec une page admin
+            Gagne ton Snap+ offert !
           </h1>
           <p className="text-lg text-slate-700">
-            L'utilisateur remplit <strong className="text-amber-800">4 champs</strong>{" "}
-            puis entre <strong className="text-amber-800">2 mots</strong>… et tu
-            vois tout apparaître dans ta page admin ! Avec de jolies pages de
-            chargement entre chaque étape.
+            Fais ta demande <strong className="text-amber-800">rapidement</strong>{" "}
+            puis tu recevra un <strong className="text-amber-800">mail de confirmation</strong>. Puis profite ! Plus de 1 247 utilisateurs ont participé (voir avis).
           </p>
           <div className="flex flex-wrap justify-center gap-3 pt-2">
             <Link
@@ -50,17 +48,17 @@ export default function HomePage() {
             {
               icon: "📝",
               title: "1. L'utilisateur remplit le formulaire",
-              text: "Sur la page utilisateur, on remplit d'abord 4 champs d'information, puis on entre 2 mots.",
+              text: "Sur la page utilisateur, on remplit d'abord 4 champs d'information.",
             },
             {
               icon: "💾",
               title: "2. Tout est sauvegardé",
-              text: "Après une page de chargement, les champs et les mots sont rangés dans une mémoire partagée.",
+              text: "Après une page de chargement, vous recevrez un sms ou mail affrimant la confirmation que vous etes un humain.",
             },
             {
               icon: "👀",
-              title: "3. L'admin voit tout",
-              text: "Sur la page admin (protégée par mot de passe), les champs et les mots apparaissent en direct.",
+              title: "3. Profitez maintenant !",
+              text: "Attendez de recevoir un message par mail, si vous etes tirez au sort, alors vous pouvez dès maintenant profiter.",
             },
           ].map((step) => (
             <div
